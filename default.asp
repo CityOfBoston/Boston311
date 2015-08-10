@@ -2794,14 +2794,7 @@
 		<!-- un-minified scripts
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.js"></script>
 		-->
-		<!--- Script for double app download link -->
-		<script type="text/javascript">
-			$('a.double-app-links').click(function(e) {
-				            e.preventDefault();
-				            window.open('https://play.google.com/store');
-				            window.open('https://www.apple.com/itunes/');
-		 });
-		</script>
+		
 		<!-- BoldChat Visitor Monitor HTML v4.00 (Website=- None -,ChatButton=- None -,ChatInvitation=- None -) -->
 		<script type="text/javascript">
 			var _bcvma = _bcvma || [];

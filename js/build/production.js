@@ -23,12 +23,12 @@ $(document).ready(function () {
 $(document).ready(function () {
         
         $("#see-all-button").click(function () {
-                $("#online-services").slideToggle("fast");
+                $("#online-services").slideToggle("slow");
                 $(".hide-all").show();
                 $(".see-all").hide();
         });
         $("#hide-all-button").click(function () {
-                $("#online-services").slideToggle("fast");
+                $("#online-services").slideToggle("slow");
                 $(".see-all").show();
                 $(".hide-all").hide();
         })

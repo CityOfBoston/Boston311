@@ -79,6 +79,28 @@ label {
 
 
 /* page content styles */
+
+#content-0{
+	text-align:center;
+	background:white;
+	padding: 3%;
+	font-family: 'bree_serifregular';
+}
+
+#content-0 h3{
+	 display: inline-table;
+     vertical-align: middle;
+     margin-bottom: 0;
+     font-size: 30px;
+     color: #FDB71A;
+     text-align: center;
+}
+
+#content-0 h5{
+	color:#276598;
+	font-size:15px;
+	padding-top: 1%;
+}
  
  #content-1{
      text-align:center;
