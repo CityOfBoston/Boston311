@@ -2777,14 +2777,14 @@
 		<!----=============================javascript land========================- ->
 	        <!-- placed at the bottom so that the pages load faster -->
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<!--<script type="text/javascript" src="js/build/production.min.js"></script>-->
+		<script type="text/javascript" src="js/build/production.min.js"></script>
 		
 		
 
-		<script type="text/javascript" src="js/services-panels.js"></script>
+		<!--<script type="text/javascript" src="js/services-panels.js"></script>
 		<script type="text/javascript" src="js/faq-panels.js"></script>
 		<script type="text/javascript" src="js/searchbar.js"></script>
-		<script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+		<script src="https://code.jquery.com/jquery-2.0.3.js"></script>-->
 		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.js"></script>-->
 		
 		

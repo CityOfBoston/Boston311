@@ -2,19 +2,13 @@
 
 $(document).ready(function () {
         
-        $(".see-all").click(function() {
-                $("#online-services").slideToggle("fast");
-        });
-        
-        $(".hide-all").click(function(){
-                $("#online-services").slideToggle("fast");
-        });
-
         $("#see-all-button").click(function () {
+                $("#online-services").slideToggle("fast");
                 $(".hide-all").show();
                 $(".see-all").hide();
         });
         $("#hide-all-button").click(function () {
+                $("#online-services").slideToggle("fast");
                 $(".see-all").show();
                 $(".hide-all").hide();
         })

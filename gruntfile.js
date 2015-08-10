@@ -7,7 +7,7 @@ module.exports = function(grunt){
 			js:{
 				src:[
 					'js/faq-panels.js', 
-					'js/services-panel.js',
+					'js/services-panels.js',
 					'js/searchbar.js', 							
 				],
 				dest: 'js/build/production.js',
@@ -42,7 +42,13 @@ module.exports = function(grunt){
                 src: 'css/build/production.css',
                 dest: 'css/build/production.min.css'
             }
-        },	
+        },
+		watch: {
+			js: {
+				files: ['js/*.js'],
+				tasks: ['concat', 'uglify']
+			}
+		}	
 	});
 	
 	//3. where we tell grunt we to use these plug-ins:
@@ -50,9 +56,10 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
+	grunt.loadNpmTasks('grunt-contrib-watch');
 	
 	//4. where we tell grunt what to do when we type grunt into the terminal.
-	grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'cssmin']);
+	grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'cssmin', 'watch']);
 	
 	
 };
