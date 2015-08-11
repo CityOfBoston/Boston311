@@ -43,10 +43,6 @@ jQuery(document).ready(function () {
           id: "/mayor/24?topic=mice-infestation-residential"
         },
         {
-          "text": "Pest Inspection",
-          id: "/mayor/24?topic=pst-infestation-residential"
-        },
-        {
           "text": "Pigeon Infestation",
           id: "/mayor/24?topic=pigeon-infestation"
         },

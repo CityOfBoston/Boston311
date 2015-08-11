@@ -1,19 +1,22 @@
-/*FAQ Panels control script*/
+/*FAQ Panels control script
+* This script manages the last portion of default.asp the "FAQ"
+* The JQuery controls hiding/showing the panels as well as using the buttons to collaspe/expand
+*/
 
 $(document).ready(function () {
-        $(".toggle_faqcontainer").hide();
+        $(".toggle_faqcontainer").hide(); //initially hides the container
 
-        $("h2.expand_heading").click(function () {
+        $("h2.expand_heading").click(function () { //expands the faq box on clicking the header
                 $(this).next(".toggle_faqcontainer").slideToggle("slow");
-        });
-        $(".expand_all_faq").click(function () {
+        }); 
+        $(".expand_all_faq").click(function () { //clicking expand all toggles the boxes
                 $(".toggle_faqcontainer").slideDown("slow");
-                $(".collapse_all_faq").show();
+                $(".collapse_all_faq").show(); //and swaps the buttons
                 $(".expand_all_faq").hide();
         });
-        $(".collapse_all_faq").click(function () {
+        $(".collapse_all_faq").click(function () { //clicking collapse all closes the boxes
                 $(".toggle_faqcontainer").slideUp("slow");
-                $(".expand_all_faq").show();
+                $(".expand_all_faq").show(); //and button swaps
                 $(".collapse_all_faq").hide();
         });
 });
@@ -22,49 +25,70 @@ $(document).ready(function () {
 
 $(document).ready(function () {
         
-        $("#see-all-button").click(function () {
+        $("#see-all-button").click(function () { //toggles the online-services div from the see-all button
                 $("#online-services").slideToggle("slow");
-                $(".hide-all").show();
+                $(".hide-all").show(); //swaps the buttons hideall/showall
                 $(".see-all").hide();
         });
-        $("#hide-all-button").click(function () {
+        $("#hide-all-button").click(function () { //toggles the online-services div from the hide-all button
                 $("#online-services").slideToggle("slow");
-                $(".see-all").show();
+                $(".see-all").show(); //button swap
                 $(".hide-all").hide();
         })
         
         
-        $(".toggle_container").hide();
+        $(".toggle_container").hide(); //hides the boxes inside the container panels
         
-        $("h2.expand_heading").click(function () {
+        $("h2.expand_heading").click(function () { //allows the boxes to expand if you click on the heading
                 $(this).next(".toggle_container").slideToggle("slow");
         });
 
-        $(".expand_all").click(function () {
+        $(".expand_all").click(function () { //expand all opens the container boxes
                 $(".toggle_container").slideDown("slow");
-                $(".collapse_all").show();
+                $(".collapse_all").show(); //button swap
                 $(".expand_all").hide();
         });
-        $(".collapse_all").click(function () {
+        $(".collapse_all").click(function () { //collapse all hides the container boxes
                 $(".toggle_container").slideUp("slow");
-                $(".expand_all").show();
+                $(".expand_all").show(); //button swap
                 $(".collapse_all").hide();
         })
 });
 
 /*welcome to searchbar.js
-I promise I will use ajax to load this nasty json file
-but for now just bear with me!
+The purpose of this file is to fill the searchbar on the main page using the select2 JS plugin. Select2 was chosen for it's mobile compatibility (the original chosen didn't allow input on mobile) and for it's AJAX option. 
 
-Searchbar.js has the JSON + the jquery script that interacts with the chosenJS search bar to load the values.
+However, at the moment, the data is being populated remotely w/o an AJAX request. 
 
-It may not be possible to dyanamically update a chosenJS list - so I might have to refactor this format*/
+
+Select2 uses this data structure built-in for optgroups:
+
+{ 
+  text: "name of parent",
+  children: [
+    {
+      "text": "name of child",
+      id: "URL of child service page""
+    }
+  ]
+ }
+ 
+ where the parent is the heading of the container panels
+ (originally from citizens connect) and the children are the panels within them. We have left out the subheading from the searchbar (but you can see them in the services panels).
+ 
+ 
+ All data here is also present in the container panels in default.asp 
+ The panels are normally hidden, but can be viewed if a person doesn't want to use the searchbar.
+ If you update data within this object, you must also *manually* update that data.
+ 
+ In the future, we should probably rewrite those panels as well.
+*/
 
 
 jQuery(document).ready(function () {
-
     $('#searchbar').on('change', function(e) { window.open(e.target.value, '_blank') }).select2({
-    data: [{
+   //the .on handler is for opening all search bar choices in a new tab
+    data: [{ 
       text: "Animals",
       children: [
         {
@@ -74,10 +98,6 @@ jQuery(document).ready(function () {
         {
           "text": "Mice Infestation",
           id: "/mayor/24?topic=mice-infestation-residential"
-        },
-        {
-          "text": "Pest Inspection",
-          id: "/mayor/24?topic=pst-infestation-residential"
         },
         {
           "text": "Pigeon Infestation",
