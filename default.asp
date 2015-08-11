@@ -133,7 +133,7 @@
 			</div>
 			<div class="pure-g" id="content-4">
 				<div class="pure-u-1 pure-u-md-1 pure-u-lg-1-2">
-					<a href="/mayor/24?topic=trash-pickup" target="_blank">
+					<a href="https://mayors24.cityofboston.gov/reports/new?service_id=4f389210e75084437f0001c0" target="_blank">
 	                                <h4>Report a missed curbside pickup ></h4></a>
 					<a href="/mayor/24?topic=pothole" target="_blank">
 	                                <h4>Get a pothole fixed ></h4></a>
@@ -141,7 +141,7 @@
 	                                <h4>Get a street cleaned ></h4></a>
 					<a href="/mayor/24?topic=bulk-item-pickup" target="_blank">
 	                                <h4>Get rid of a big item ></h4></a>
-					<a href="http://mayors24.boston.gov/Ef3/General.jsp?form=SSP_TrackCase&page=EntrancePage#" target="_blank">
+					<a href="http://www.cityofboston.gov/mayor/24?topic=track-request" target="_blank">
 	                                <h4>Track a service request ></h4></a>
 				</div>
 				<div class="pure-u-1 pure-u-md-1 pure-u-lg-1-2">
@@ -149,8 +149,8 @@
 	                                <h4>Request graffiti removal ></h4></a>
 					<a href="https://mayors24.cityofboston.gov/reports/new?service_id=4f389210e75084437f0001ec" target="_blank">
 	                                <h4>Report a broken street sign ></h4></a>
-					<a href="/mayor/24?topic=traffic-signal" target="_blank">
-	                                <h4>Report a broken traffic light ></h4></a>
+					<a href="https://mayors24.cityofboston.gov/reports/new?service_id=549d8f0b0485971e64c7b37b" target="_blank">
+	                                <h4>Report a broken traffic signal ></h4></a>
 					<a href="/parking/payment.asp" target="_blank">
 	                                <h4>Pay a parking ticket ></h4></a>
 					<a href="https://mayors24.cityofboston.gov/reports/new?service_id=4f389210e75084437f0001d8" target="_blank">
@@ -166,7 +166,7 @@
 			<div class="pure-g" id="content-search">
 				<div class="pure-u-2-3 pure-md-5-6 pure-lg-5-6">
 					<form class="pure-form">
-						<select id="searchbar" onchange="location = this.options[this.selectedIndex].value;">
+						<select id="searchbar" onchange="location = this.options[ this.selectedIndex ].value, '_blank';">
 							<option value=""></option>
 						</select>
 						
@@ -2702,9 +2702,7 @@
 				<div class="expand_wrapper">
 					<h2 class="expand_heading">
 	        <div id="Div4">
-				<a href="#">
 	          <font class="HeaderContent">Can I request city services and information without calling?</font>
-			  </a>
 				</div>
 				</h2>
 				<div class="toggle_faqcontainer">
@@ -2738,7 +2736,7 @@
 					<div class="faq-box">
 						<div class="faq-content">
 							<div class="Content">
-								<h6>Once you have successfully submitted your request, you will receive an email with a tracking number that you can use to monitor your request.  </h6>
+								<h6>Once you have successfully submitted your request, you will receive an email with a tracking number that you can use to monitor your request. <a href="http://www.cityofboston.gov/mayor/24?topic=track-request">You can track your request here</a>  </h6>
 								<br
 								/>
 							</div>
