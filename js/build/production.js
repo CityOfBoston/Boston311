@@ -100,6 +100,10 @@ jQuery(document).ready(function () {
           id: "/mayor/24?topic=mice-infestation-residential"
         },
         {
+          "text": "Pest Inspection",
+          id: "http://www.cityofboston.gov/mayor/24?topic=pest-infestation-residential"
+        },
+        {
           "text": "Pigeon Infestation",
           id: "/mayor/24?topic=pigeon-infestation"
         },
@@ -972,7 +976,7 @@ text: "Housing, Property & Construction",
         },
         {
           "text": "Pest Inspection",
-          id: "/mayor/24?topic=pest-infestation-residential"
+          id: "http://www.cityofboston.gov/mayor/24?topic=pest-infestation-residential"
         },
         {
           "text": "BHA Maintenance Complaint",
