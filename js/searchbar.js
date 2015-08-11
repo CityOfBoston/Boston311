@@ -9,7 +9,7 @@ It may not be possible to dyanamically update a chosenJS list - so I might have 
 
 jQuery(document).ready(function () {
 
-  $("#searchbar").select2({
+    $('#searchbar').on('change', function(e) { window.open(e.target.value, '_blank') }).select2({
     data: [{
       text: "Animals",
       children: [

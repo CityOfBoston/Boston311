@@ -168,7 +168,7 @@
 			<div class="pure-g" id="content-search">
 				<div class="pure-u-2-3 pure-md-5-6 pure-lg-5-6">
 					<form class="pure-form">
-						<select id="searchbar" onchange="location = this.options[this.selectedIndex].value;">
+						<select id="searchbar">
 							<option value=""></option>
 						</select>
 					</form>
