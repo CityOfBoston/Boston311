@@ -254,10 +254,6 @@ jQuery(document).ready(function () {
           id: "/purchasing/bid.asp"
         },
         {
-          "text": "Neighborhood Development",
-          id: "https://dnd.cityofboston.gov/#page/RFPs"
-        },
-        {
           "text": "Parks Design & Construction",
           id: "/parks/design_con/bidsandproposals.asp"
         },

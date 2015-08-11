@@ -171,9 +171,6 @@
 						<select id="searchbar" onchange="location = this.options[this.selectedIndex].value;">
 							<option value=""></option>
 						</select>
-
-						<!--<input type="hidden" onchange="location = this.options[this.selectedIndex].value;" id="searchbar" />
-						-->
 					</form>
 				</div>
 			<div class="pure-u-1-3 pure-md-1-6 pure-lg-1-6">
@@ -277,18 +274,6 @@
             <li>
               <a href="/animals/doglicense/" class="mainColLink">Dog License Application</a>
             </li>
-            <li>
-              <a href="/animals/adoption/" class="mainColLink">Adoption</a>
-            </li>
-          </ul>
-        </div>
-        <font class="SubCategoryLabel">Volunteer</font>
-        <br />
-        <div>
-          <ul>
-            <li>
-              <a href="/animals/volunteer.asp" target="_blank" class="mainColLink">Animal Shelter Volunteer Profile</a>
-            </li>
           </ul>
         </div>
       </div>
@@ -369,7 +354,7 @@
 										<a href="/arts/film/permitting.asp" class="mainColLink">Film in Boston</a>
 									</li>
 									<li>
-										<a href="http://www.cityofboston.gov/consumeraffairs/entertainment/" class="mainColLink">One-Time Carnival</a>
+										<a href="http://www.cityofboston.gov/images_documents/One%20Time%20Carnival%20License_tcm3-9995.pdf" class="mainColLink">One-Time Carnival</a>
 									</li>
 									<li>
 										<a href="http://www.cityofboston.gov/consumeraffairs/entertainment/" class="mainColLink">Request to Amend License</a>
@@ -558,16 +543,7 @@
 							<br />
 							<div>
 								<ul>
-									<li>
-										<a href="https://dnd.cityofboston.gov/#page/RFPs" class="mainColLink">RFP for Property Disposition</a>
-									</li>
 									<!--<li><a href="https://dnd.cityofboston.gov/#page/BusinessDevelopment" class="mainColLink">Commercial Space for Lease Finder </a></li>-->
-									<li>
-										<a href="https://dnd.cityofboston.gov/#page/property_development" class="mainColLink">Commercial Property Site Finder </a>
-									</li>
-									<li>
-										<a href="/dnd/REMS/REMSfind/findproperty.asp" class="mainColLink">Available Property Inventory </a>
-									</li>
 									<li>
 										<a href="https://dnd.cityofboston.gov/#page/property_development" class="mainColLink">City Owned Property for Sale </a>
 									</li>
@@ -625,9 +601,6 @@
 									</li>
 									<li>
 										<a href="http://www.cityofboston.gov/internships/" class="mainColLink">Internships</a>
-									</li>
-									<li>
-										<a href="http://www.bostonyouthzone.com/teenzone/employment/byf/" target="_blank" class="mainColLink">Youth Summer Jobs</a>
 									</li>
 								</ul>
 							</div>
@@ -786,9 +759,6 @@
 										<a href="http://www.cityofboston.gov/registry/marriage/certificates.asp" class="mainColLink">Marriage Certificate</a>
 									</li>
 									<li>
-										<a href="/cityclerk/services/" class="mainColLink">Domestic Partnership Statement </a>
-									</li>
-									<li>
 										<a href="/cityclerk/services/" class="mainColLink">Domestic Partnership Termination</a>
 									</li>
 									<li>
@@ -796,9 +766,6 @@
 									</li>
 									<li>
 										<a href="http://www.mass.gov/courts/selfhelp/name-changes/" target="_blank" class="mainColLink">Name Change</a>
-									</li>
-									<li>
-										<a href="http://bostonpublicschools.org/request-transcript" target="_blank" class="mainColLink">School Transcript</a>
 									</li>
 								</ul>
 							</div>
@@ -838,8 +805,6 @@
 								<a href="/elections" class="mainColLink">Election Department <b>&raquo;</b></a>
 								<br />
 								<a href="/registry" class="mainColLink">Registry <b>&raquo;</b></a>
-								<br />
-								<a href="http://www.cityofboston.gov/registry/marriage/intentions.asp" class="mainColLink">Marriage Intention Instructions <b>&raquo;</b></a>
 							</div>
 						</div>
 						<div style="clear:both;"></div>
@@ -875,7 +840,7 @@
 							<div>
 								<ul>
 									<li>
-										<a href="/mayor/24?topic=trash-pickup" class="mainColLink">Missed Pickup</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f389210e75084437f0001c0" class="mainColLink">Missed Pickup</a>
 									</li>
 									<li>
 										<a href="/mayor/24?topic=bulk-item-pickup" class="mainColLink">Request Bulk Item Pickup</a>
@@ -917,7 +882,7 @@
 										<a href="/mayor/24?topic=trash-storage" class="mainColLink">Improper Storage of Trash Barrels</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=empty-public-waste-bin" class="mainColLink">Empty Public Waste Bin</a>
+										<a href="http://www.cityofboston.gov/mayor/24?topic=empty-public-waste-bin " class="mainColLink">Empty Public Waste Bin</a>
 									</li>
 									<li>
 										<a href="/mayor/24?topic=generic" class="mainColLink">Request Public Bin Installation</a>
@@ -934,7 +899,7 @@
 							<div>
 								<ul>
 									<li>
-										<a href="/mayor/24?topic=trash-pickup" class="mainColLink">Missed Recycling Pickup</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f389210e75084437f0001c0" class="mainColLink">Missed Recycling Pickup</a>
 									</li>
 									<li>
 										<a href="/subscribe" class="mainColLink">Sign Up for Recycling E-Newsletter</a>
@@ -1006,7 +971,7 @@
 										<a href="/mayor/24?topic=illegal-dumping" target="_blank" class="mainColLink">Illegal Dumping</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=overflowing-or-unkempt-dumpster" target="_blank" class="mainColLink">Dumpster Overflow</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f38920fe75084437f0001ba" target="_blank" class="mainColLink">Dumpster Overflow</a>
 									</li>
 									<li>
 										<a href="/mayor/24?topic=outdoor-rodent-activity" target="_blank " class="mainColLink ">Rodents (Outdoors)</a>
@@ -1079,9 +1044,6 @@
 									</li>
 									<li>
 										<a href="/isd/forms.asp#health " class="mainColLink ">Inspectional Services Health Forms</a>
-									</li>
-									<li>
-										<a href="/fire/inspections/sdiform/ " class="mainColLink ">Schedule Smoke & Carbon Monoxide Detector Inspection</a>
 									</li>
 									<li>
 										<a href="/mayor/24?topic=rental-unit-delivery-conditions " class="mainColLink ">Rental Unit Delivery Conditions Inspection</a>
@@ -1268,9 +1230,6 @@
 							<div>
 								<ul>
 									<li>
-										<a href="https://dnd.cityofboston.gov/#page/housing " class="mainColLink ">First Time Homebuyers Courses </a>
-									</li>
-									<li>
 										<a href="/subscribe " class="mainColLink ">Boston Home Center E-Newsletter</a>
 									</li>
 									<li>
@@ -1295,9 +1254,6 @@
 										<a href="http://invoicecloud.com/cityofboston " class="mainColLink ">Pay Property Tax</a>
 									</li>
 									<li>
-										<a href="https://dnd.cityofboston.gov/#page/property_development " class="mainColLink ">Available Property Inventory / Expression of Interest Form</a>
-									</li>
-									<li>
 										<a href="/isd/foreclosure " class="mainColLink ">Registration Application of Vacant / Foreclosing / Foreclosed Properties</a>
 									</li>
 									<li>
@@ -1313,25 +1269,7 @@
 							<div>
 								<ul>
 									<li>
-										<a href="http://www.bostonhousing.org/detpages/hservices368.html " target="_blank " class="mainColLink ">Apply for BHA Housing</a>
-									</li>
-									<li>
 										<a href="http://section8listmass.org/ " target="_blank " class="mainColLink ">Section 8 Waiting List</a>
-									</li>
-								</ul>
-							</div>
-							<font class="SubCategoryLabel ">Real Estate</font>
-							<br />
-							<div>
-								<ul>
-									<li>
-										<a href="https://dnd.cityofboston.gov/#page/RFPs " class="mainColLink ">RFP for Property Disposition</a>
-									</li>
-									<li>
-										<a href="https://dnd.cityofboston.gov/#page/housing " class="mainColLink ">Commercial Site Finder </a>
-									</li>
-									<li>
-										<a href="https://dnd.cityofboston.gov/#page/housing " class="mainColLink ">Available Property Inventory</a>
 									</li>
 								</ul>
 							</div>
@@ -1355,7 +1293,7 @@
 										<a href="/myneighborhood " class="mainColLink ">Find Neighborhood Resources</a>
 									</li>
 									<li>
-										<a href="/myneighborhood " class="mainColLink ">Contact Neighborhood Coordinator</a>
+										<a href="http://www.cityofboston.gov/ons/liaisons.asp" class="mainColLink ">Contact Neighborhood Coordinator</a>
 									</li>
 									<li>
 										<a href="/subscribe " class="mainColLink ">E-Newsletters</a>
@@ -1511,9 +1449,6 @@
 									<li>
 										<a href="/fire/inspections/sdiform/ " class="mainColLink ">Schedule Smoke & Carbon Monoxide Detector Inspection</a>
 									</li>
-									<li>
-										<a href="/mayor/24?topic=carbon-monoxide " class="mainColLink ">Carbon Monoxide (Residential)</a>
-									</li>
 								</ul>
 							</div>
 							<font class="SubCategoryLabel ">Zoning / Occupancy</font>
@@ -1545,10 +1480,10 @@
 										<a href="/mayor/24?topic=mechanical " class="mainColLink ">Mechanical</a>
 									</li>
 									<li>
-										<a href="/licensing/forms " class="mainColLink ">Dormitory License</a>
+										<a href="http://www.cityofboston.gov/images_documents/Lodging%20house%20application_full_tcm3-48081.pdf" class="mainColLink ">Dormitory License</a>
 									</li>
 									<li>
-										<a href="/licensing/forms " class="mainColLink ">Lodging House License</a>
+										<a href="http://www.cityofboston.gov/images_documents/Lodging%20house%20application_full_tcm3-48081.pdf" class="mainColLink ">Lodging House License</a>
 									</li>
 								</ul>
 							</div>
@@ -1562,8 +1497,6 @@
 								<a href="/rentalhousing/ " class="mainColLink ">Rental Housing Resources<b>&raquo;</b></a>
 								<br />
 								<a href="http://www.bostonhousing.org " target="_blank " class="mainColLink ">Boston Housing Authority <b>&raquo;</b></a>
-								<br />
-								<a href="/dnd/ " class="mainColLink ">Neighborhood Development <b>&raquo;</b></a>
 								<br />
 								<a href="/bra " target="_blank " class="mainColLink ">Redevelopment Authority <b>&raquo;</b></a>
 								<br />
@@ -1605,16 +1538,16 @@
 							<div>
 								<ul>
 									<li>
-										<a href="/mayor/24?topic=park " class="mainColLink ">Park Maintenance</a>
+										<a href="https://311.boston.gov/reports/new?service_id=51f6012a2debc151cb9b5672" class="mainColLink ">Park Maintenance</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=park " class="mainColLink ">Damaged Play Equipment</a>
+										<a href="https://311.boston.gov/reports/new?service_id=51f6012a2debc151cb9b5672" class="mainColLink ">Damaged Play Equipment</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=park " class="mainColLink ">Damaged Fountain</a>
+										<a href="https://311.boston.gov/reports/new?service_id=51f6012a2debc151cb9b5672" class="mainColLink ">Damaged Fountain</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=park " class="mainColLink ">Cemetery Maintenance</a>
+										<a href="https://311.boston.gov/reports/new?service_id=51f6012a2debc151cb9b5672" class="mainColLink ">Cemetery Maintenance</a>
 									</li>
 									<li>
 										<a href="/mayor/24?topic=park " class="mainColLink ">Parks Lighting Issue</a>
@@ -1623,7 +1556,7 @@
 										<a href="http://massnrc.org/pests/albreport.aspx " target="_blank " class="mainColLink ">Asian Longhorned Beetle</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=tree " class="mainColLink ">Tree Maintenance Request</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f38920fe75084437f0001b2" class="mainColLink ">Tree Maintenance Request</a>
 									</li>
 								</ul>
 							</div>
@@ -1656,7 +1589,7 @@
 										<br />
 									</li>
 									<li>
-										<a href="/mayor/24?topic=tree " class="mainColLink ">Request a City Tree Be Maintained</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f38920fe75084437f0001b2" class="mainColLink ">Request a City Tree Be Maintained</a>
 									</li>
 									<!--<li><a href="http://www.growbostongreener.org/gbg/contacts.html " class="mainColLink ">Tree Planting Volunteer Opportunities</a></li>
                     <li><a href="http://www.growbostongreener.org/gbg/getinvolved.html " class="mainColLink ">Grow Boston Greener Updates</a></li>
