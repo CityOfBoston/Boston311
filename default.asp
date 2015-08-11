@@ -514,19 +514,19 @@
 							<div>
 								<ul>
 									<li>
-										<a href="http://www.cityofboston.gov/consumeraffairs/" class="mainColLink">Live Entertainment (Annual 7 Day)</a>
+										<a href="http://www.cityofboston.gov/images_documents/Annual%20Live%20Entertainment%20Application%20(1)_tcm3-10001.pdf" class="mainColLink">Live Entertainment (Annual 7 Day)</a>
 									</li>
 									<li>
 										<a href="http://www.cityofboston.gov/consumeraffairs/" class="mainColLink">Non-Live Entertainment</a>
 									</li>
 									<li>
-										<a href=" http://www.cityofboston.gov/licensing/forms/" class="mainColLink">Fortune Teller</a>
+										<a href="http://www.cityofboston.gov/images_documents/FORTUNE%20TELLER%20application%20revised%203-2013_tcm3-18711.pdf" class="mainColLink">Fortune Teller</a>
 									</li>
 									<li>
-										<a href="http://www.cityofboston.gov/licensing/forms/" class="mainColLink">Pool / Billiard Table </a>
+										<a href="http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf" class="mainColLink">Pool / Billiard Table </a>
 									</li>
 									<li>
-										<a href="http://www.cityofboston.gov/licensing/forms/" class="mainColLink">Bowling Alley</a>
+										<a href="http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf" class="mainColLink">Bowling Alley</a>
 									</li>
 								</ul>
 							</div>
@@ -1783,9 +1783,6 @@
 									<li>
 										<a href="/parks/pdfs/streetclosing.pdf " class="mainColLink ">Street Closing</a>
 									</li>
-									<li>
-										<a href="/parks/pdfs/operationspolicy2004.pdf " class="mainColLink ">Franklin Park</a>
-									</li>
 								</ul>
 							</div>
 							<font class="SubCategoryLabel ">Youth</font>
@@ -1945,7 +1942,7 @@
 										<a href="http://www.bwsc.org/ACCOUNTS/accounts.asp " target="_blank " class="mainColLink ">Pay Water & Sewer Bill</a>
 									</li>
 									<li>
-										<a href="http://www.nstaronline.com " target="_blank " class="mainColLink ">Pay NStar Bill</a>
+										<a href="https://www.eversource.com/Content/ema-c" target="_blank " class="mainColLink ">Pay NStar Bill</a>
 									</li>
 									<li>
 										<a href="http://www2.nationalgridus.com/ " target="_blank " class="mainColLink ">Pay National Grid Bill</a>
@@ -2006,9 +2003,6 @@
 										<a href="/mayor/24?topic=pavement-marking-new " class="mainColLink ">Request New Bike Lane Marking</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=pavement-marking-maintenance " class="mainColLink ">Bike Lane Marking Repair</a>
-									</li>
-									<li>
 										<a href="/mayor/24?topic=pavement-marking-maintenance " class="mainColLink ">Pavement Marking Repair</a>
 									</li>
 									<li>
@@ -2027,7 +2021,7 @@
 										<a href="/mayor/24?topic=pothole " class="mainColLink ">Pothole Repair </a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=sidewalk-repair " class="mainColLink ">Sidewalk Repair</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f389210e75084437f0001d3" class="mainColLink ">Sidewalk Repair</a>
 									</li>
 									<li>
 										<a href="/mayor/24?topic=pavement-marking-maintenance " class="mainColLink ">Crosswalk Repair</a>
@@ -2121,9 +2115,6 @@
 										<a href="http://www.mass.gov/ocabr/insurance/vehicle/auto-insurance/auto-insurance-premium-comparisons.html " target="_blank "
 										class="mainColLink ">Compare Auto Insurance Rates</a>
 									</li>
-									<li>
-										<a href="http://www.masspike.com/travel/fastlane/fastlane_signup.html " target="_blank " class="mainColLink ">Open a Fast Lane Account</a>
-									</li>
 								</ul>
 							</div>
 						</div>
@@ -2157,7 +2148,7 @@
 										<a href="/transportation/valet.asp " class="mainColLink ">Valet Parking Application</a>
 									</li>
 									<li>
-										<a href="/mayor/24?topic=parking-enforcement " class="mainColLink ">Illegally Parked Cars</a>
+										<a href="https://311.boston.gov/reports/new?service_id=4f389210e75084437f0001e5" class="mainColLink ">Illegally Parked Cars</a>
 									</li>
 									<li>
 										<a href="/Parking/residentparking/ " class="mainColLink ">Resident Parking Permit</a>
@@ -2217,7 +2208,7 @@
 							<div>
 								<ul>
 									<li>
-										<a href="http://www.mass.gov/rmv/forms/20060.pdf " target="_blank " class="mainColLink ">Application for Disabled Placard/Plate </a>
+										<a href="http://www.massrmv.com/rmv/forms/disabled.htm " target="_blank " class="mainColLink ">Application for Disabled Placard/Plate </a>
 									</li>
 									<li>
 										<a href="http://www.mass.gov/rmv/hp_complaint/parkingAbuseComplaint.htm " target="_blank " class="mainColLink ">Report Handicap Parking Abuse</a>
@@ -2247,9 +2238,6 @@
 								<ul>
 									<li>
 										<a href="/contact/?id=179 " class="mainColLink ">Request a Bike Rack</a>
-									</li>
-									<li>
-										<a href="http://www.surveymonkey.com/s/GZVLXX6 " class="mainColLink ">Register for Bike Events </a>
 									</li>
 									<li>
 										<a href="http://www.nationalbikeregistry.com/register.html " class="mainColLink ">Register your Bike</a>
@@ -2313,9 +2301,6 @@
 									</li>
 									<li>
 										<a href="http://www.mbta.com/customer_support/feedback/ " target="_blank " class="mainColLink ">Public Transportation Complaint</a>
-									</li>
-									<li>
-										<a href="http://www.talerts.com/SubscribeAlerts.aspx " target="_blank " class="mainColLink ">Service Delay Alerts</a>
 									</li>
 								</ul>
 							</div>
