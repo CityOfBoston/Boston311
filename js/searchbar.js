@@ -1143,7 +1143,7 @@ text: "Taxes & Payments",
         },
         {
           "text": "Pay NStar Bill",
-          id: "https://www.eversource.com/content/"
+          id: "https://www.eversource.com/Content/ema-c"
         },
         {
           "text": "Pay National Grid Bill",
@@ -1202,10 +1202,6 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Crosswalk Repair",
-          id: "/mayor/24?topic=pavement-marking-maintenance"
-        },
-        {
-          "text": "Pavement Marking Repair",
           id: "/mayor/24?topic=pavement-marking-maintenance"
         },
         {
@@ -1426,7 +1422,7 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Bike Lane Marking Repair",
-          id: "/mayor/24?topic=pavement-marking-maintenance"
+          id: "http://www.cityofboston.gov/mayor/24/?topic=pavement-marking-maintenance"
         },
         {
           "text": "Taxi Complaint",
