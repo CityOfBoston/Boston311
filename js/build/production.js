@@ -65,7 +65,75 @@ jQuery(document).ready(function () {
 
   $("#searchbar").select2({
     data: [{
-text: "Business",
+      text: "Animals",
+      children: [
+        {
+          "text": "Bed Bugs Inspection",
+          id: "/mayor/24?topic=bed-bugs"
+        },
+        {
+          "text": "Mice Infestation",
+          id: "/mayor/24?topic=mice-infestation-residential"
+        },
+        {
+          "text": "Pest Inspection",
+          id: "/mayor/24?topic=pst-infestation-residential"
+        },
+        {
+          "text": "Pigeon Infestation",
+          id: "/mayor/24?topic=pigeon-infestation"
+        },
+        {
+          "text": "Rat Bite",
+          id: "/mayor/24?topic=rat-bite"
+        },
+        {
+          "text": "Rodent Activity (outdoors)",
+          id: "https://311.boston.gov/reports/new?service_id=4f38920fe75084437f000188"
+        },
+        {
+          "text": "Mosquitoes (West Nile)",
+          id: "/mayor/24?topic=mosquitoes-west-nile"
+        },
+        {
+          "text": "Asian Longhorned Beetle",
+          id: "http://massnrc.org/pests/albreport.aspx"
+        },
+        {
+          "text": "Report A Lost Pet",
+          id: "/mayor/24?topic=lost-pet"
+        },
+        {
+          "text": "Search for Dog License",
+          id: "/animals/owners.asp"
+        },
+        {
+          "text": "Dog License Application",
+          id: "/animals/doglicense/"
+        },
+        {
+          "text": "Animal Bite",
+          id: "/mayor/24?topic=generic"
+        },
+        {
+          "text": "Barking / Noisy Dog",
+          id: "/mayor/24?topic=generic"
+        },
+        {
+          "text": "Dead Animal",
+          id: "https://311.boston.gov/reports/new?service_id=4f389210e75084437f0001c4"
+        },
+        {
+          "text": "Animal Shelter \u00bb",
+          id: "/animals/directions.asp"
+        },
+        {
+          "text": "Pet Care \u00bb",
+          id: "/animals/care/"
+        }
+      ]},
+      {
+      text: "Business",
       children: [
         {
           "text": "Common Victualler",
@@ -1144,6 +1212,10 @@ text: "Recreation, Entertainment, & Event Planning",
 text: "Taxes & Payments",
       children: [
         {
+          "text":"Track a Service Request",
+          id:"http://mayors24.boston.gov/Ef3/SSP_TrackCase.xml"
+        },
+        {
           "text": "Assessing Online",
           id: "/assessing/search/"
         },
@@ -1197,7 +1269,7 @@ text: "Taxes & Payments",
         },
         {
           "text": "Pay NStar Bill",
-          id: "https://www.eversource.com/content/"
+          id: "https://www.eversource.com/Content/ema-c"
         },
         {
           "text": "Pay National Grid Bill",
@@ -1256,10 +1328,6 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Crosswalk Repair",
-          id: "/mayor/24?topic=pavement-marking-maintenance"
-        },
-        {
-          "text": "Pavement Marking Repair",
           id: "/mayor/24?topic=pavement-marking-maintenance"
         },
         {
@@ -1480,7 +1548,7 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Bike Lane Marking Repair",
-          id: "/mayor/24?topic=pavement-marking-maintenance"
+          id: "http://www.cityofboston.gov/mayor/24/?topic=pavement-marking-maintenance"
         },
         {
           "text": "Taxi Complaint",

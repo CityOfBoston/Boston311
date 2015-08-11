@@ -82,6 +82,14 @@ label {
 
 /* page content styles */
 
+#header{
+	background:#fdb71a;
+}
+
+#header .pure-img{
+	padding-top:1%
+}
+
 #content-0{
 	text-align:center;
 	background:white;
@@ -107,7 +115,6 @@ label {
  #content-1{
      text-align:center;
      background: #FDB71A;
-     padding-top: 1%;
  }
  
 #title h3{

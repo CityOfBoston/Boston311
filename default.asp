@@ -84,7 +84,7 @@
 						<!--This pulls the header from system/-->
 						<!--#include virtual="/includes/xhtml/banner.inc"-->
 					</div>
-					<!--<img class="pure-img" id="311head" src="css/build/images/web-header.png"/>-->
+					<img class="pure-img" src="css/build/images/311head.png"/>
 				</div>
 				<div class="pure-u-1" id="content-1">
 					<div id="title">
@@ -144,7 +144,7 @@
 					<a href="/mayor/24?topic=bulk-item-pickup" target="_blank">
 	                                <h4>Get rid of a big item ></h4></a>
 					<a href="https://311.boston.gov/reports/new?service_id=55563da904853fde08a10507" target="_blank">
-	                                <h4>Request Needle clean-up ></h4></a>
+	                                <h4>Request needle clean-up ></h4></a>
 				</div>
 				<div class="pure-u-1 pure-u-md-1 pure-u-lg-1-2">
 					<a href="https://mayors24.cityofboston.gov/reports/new?service_id=4f38920fe75084437f0001b3" target="_blank">
@@ -2733,7 +2733,7 @@
 					<div class="faq-box">
 						<div class="faq-content">
 							<div class="Content">
-								<h6>Once you have successfully submitted your request, you will receive an email with a tracking number that you can use to monitor your request.  </h6>
+								<h6>Once you have successfully submitted your request, you will receive an email with a tracking number that you can use to monitor your request. <a href="http://mayors24.boston.gov/Ef3/SSP_TrackCase.xml"> You can track your service request here</a>  </h6>
 								<br
 								/>
 							</div>
