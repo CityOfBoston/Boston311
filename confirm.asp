@@ -1,3 +1,6 @@
+<!--Confirm.asp is a page just for "thank you for subscribing to the 311 newsletter"-->
+<!--It shares the stylesheets with default.asp-->
+
 <!--#include virtual="/includes/xhtml/tridionnavigation.inc"-->
 <%
 

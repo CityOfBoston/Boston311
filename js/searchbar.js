@@ -1,16 +1,37 @@
 /*welcome to searchbar.js
-I promise I will use ajax to load this nasty json file
-but for now just bear with me!
+The purpose of this file is to fill the searchbar on the main page using the select2 JS plugin. Select2 was chosen for it's mobile compatibility (the original chosen didn't allow input on mobile) and for it's AJAX option. 
 
-Searchbar.js has the JSON + the jquery script that interacts with the chosenJS search bar to load the values.
+However, at the moment, the data is being populated remotely w/o an AJAX request. 
 
-It may not be possible to dyanamically update a chosenJS list - so I might have to refactor this format*/
+
+Select2 uses this data structure built-in for optgroups:
+
+{ 
+  text: "name of parent",
+  children: [
+    {
+      "text": "name of child",
+      id: "URL of child service page""
+    }
+  ]
+ }
+ 
+ where the parent is the heading of the container panels
+ (originally from citizens connect) and the children are the panels within them. We have left out the subheading from the searchbar (but you can see them in the services panels).
+ 
+ 
+ All data here is also present in the container panels in default.asp 
+ The panels are normally hidden, but can be viewed if a person doesn't want to use the searchbar.
+ If you update data within this object, you must also *manually* update that data.
+ 
+ In the future, we should probably rewrite those panels as well.
+*/
 
 
 jQuery(document).ready(function () {
-
     $('#searchbar').on('change', function(e) { window.open(e.target.value, '_blank') }).select2({
-    data: [{
+   //the .on handler is for opening all search bar choices in a new tab
+    data: [{ 
       text: "Animals",
       children: [
         {
