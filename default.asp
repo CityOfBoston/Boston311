@@ -11,7 +11,7 @@
 	<!---- meta tags=====================================================--->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Boston 311 | City of Boston</title>
-	
+
 	<meta name="twitter:card" content="app">
 	<meta name="twitter:site" content="@CityofBoston">
 	<meta name="twitter:description" content="BOS:311 enables Boston's residents to improve their neighborhoods and request city services by reporting issues such as potholes and graffiti.">
@@ -22,14 +22,14 @@
 	<meta name="twitter:app:id:ipad" content="330894558">
 	<meta name="twitter:app:name:googleplay" content="BOS:311">
 	<meta name="twitter:app:id:googleplay" content="gov.cityofboston.citizensconnect">
-	
+
 	<meta name="keywords" content="" />
 	<meta name="description" content="" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="cache-control" content="no-cache">
 	<!---- Google Analytics==========================================================- -->
 	<script type="text/javascript">
-		var _gaq = _gaq || [];  
+		var _gaq = _gaq || [];
 					        var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
 					        _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
 					        _gaq.push(['_setAccount', 'UA-2187282-1']);
@@ -41,10 +41,10 @@
 					        })();
 	</script>
 	<!---- COB master header tags=====================================================- -->
-	<link rel="stylesheet" href="/system/css/style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="system/css/style.css" type="text/css" media="all" />
 	<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
-	<link rel="stylesheet" href="/system/css/reset-fonts-grids.css" type="text/css" media="all" />
-	
+	<link rel="stylesheet" href="system/css/reset-fonts-grids.css" type="text/css" media="all" />
+
 	<!---- purecss header tags=====================================================- -->
 	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 	<!--[if lte IE 8]>
@@ -67,19 +67,20 @@
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
 
-	<link rel="stylesheet" runat="server" href="css/build/production.css" type="text/css" media="all" />	
+	<link rel="stylesheet" runat="server" href="css/build/production.css" type="text/css" media="all" />
 	<!--
 	<link rel="stylesheet" runat="server" href="css/panels.css" type="text/css" media="all" />
 	<link rel="stylesheet" runat="server" href="css/style.css" type="text/css" media="all" />
 	-->
-	
-	
+
+
 	</head>
 	<body>
 		<div id="layout">
 			<div class="pure-g">
 				<div class="pure-u-1" id="header">
-					<div id="doc4" class="home">
+					<img class="pure-img" id="311head" src="css/build/images/web-header.png"/>
+					<div id="doc4" class="department">
 						<!--This pulls the header from system/-->
 						<!--#include virtual="/includes/xhtml/banner.inc"-->
 					</div>
@@ -169,7 +170,7 @@
 						<select id="searchbar" onchange="location = this.options[this.selectedIndex].value;">
 							<option value=""></option>
 						</select>
-						
+
 						<!--<input type="hidden" onchange="location = this.options[this.selectedIndex].value;" id="searchbar" />
 						-->
 					</form>
@@ -183,7 +184,7 @@
 						<div class="hide-all"  style="display:none;">
 							<h6>
 							<a class="pure-button" id="hide-all-button">Hide All Services ></a>
-							</h6>					
+							</h6>
 					</div>
 			</div>
 			</div>
@@ -207,10 +208,10 @@
 					</div>
 				</div>
 			</div>
-<div class="pure-g" id="content-5-5" > 
+<div class="pure-g" id="content-5-5" >
 	<!----=========================C PANEL SET 1===========================--->
 <div class="pure-u-1">
-	
+
 <div id="Div1-Animals" class="ContainerPanel">
 <div id="Div2" class="collapsePanelHeader" rel="animals">
   <div class="expand_all"></div>
@@ -332,7 +333,7 @@
 			</div>
 			<div class="expand_wrapper">
 				<h2 class="expand_heading">
-					
+
         <div id="Div12">
           <img src="/online_services/images/icon_finance2.gif" align="left">
           <font class="HeaderContent">Business</font>
@@ -600,7 +601,7 @@
 			</div>
 			<div class="expand_wrapper">
 				<h2 class="expand_heading">
-	
+
         <div id="Div29">
           <img src="/online_services/images/book.gif" align="left">
           <font class="HeaderContent">Education & Employment</font>
@@ -2477,8 +2478,8 @@
 
 	</div><!--end online services panels-->
 
-			
-			
+
+
 			<div class="pure-g" id="content-6">
 				<div class="pure-u-2-3 pure-md-5-6 pure-lg-5-6">
 					<h3>FAQ</h3>
@@ -2494,12 +2495,12 @@
 							<h6>
 							<a class="pure-button" id="collapse-button">Collapse All ></a>
 							</h6>
-						</div>						
+						</div>
 					</div>
 				</div>
 			</div>
-		
-	
+
+
 			<div class="pure-g" id="content-7">
 				<!----=========================FAQ SET 1============================--->
 				<div class="pure-u-1">
@@ -2518,7 +2519,7 @@
 								<div class="faq-content">
 									<div class="Content">
 										<h6>
-											311 is an easy-to-remember telephone number that connects you with highly-trained Constituent Service Center representatives who are ready to help you with requests for non-emergency City services and information. 
+											311 is an easy-to-remember telephone number that connects you with highly-trained Constituent Service Center representatives who are ready to help you with requests for non-emergency City services and information.
 										</h6>
 										<br />
 									</div>
@@ -2747,8 +2748,8 @@
 			</div>
 		</div>
 		</div>
-		
-		
+
+
 		</div>
 		</div>
 		</div>
@@ -2757,7 +2758,7 @@
 				</br>
 				</br>
 			<div class="pure-u-1-3  pure-md-1-3 pure-lg-1-3">
-				
+
 			</div>
 			<div class="pure-u-1-3  pure-md-1-3 pure-lg-1-3">
 				<h6>
@@ -2768,7 +2769,7 @@
 				<h6>
 					<a href="http://www.cityofboston.gov/copyright/default.asp">© 2015 City of Boston. All rights reserved.</a>
 				</h6>
-			</div>			
+			</div>
 		</div>
 		</div>
 		<!--div for pure-g-->
@@ -2776,23 +2777,23 @@
 	        <!-- placed at the bottom so that the pages load faster -->
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/build/production.min.js"></script>
-		
-		
+
+
 
 		<!--<script type="text/javascript" src="js/services-panels.js"></script>
 		<script type="text/javascript" src="js/faq-panels.js"></script>
 		<script type="text/javascript" src="js/searchbar.js"></script>
 		<script src="https://code.jquery.com/jquery-2.0.3.js"></script>-->
 		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.js"></script>-->
-		
-		
+
+
 		<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
-		
+
 		<!-- un-minified scripts
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.js"></script>
 		-->
-		
+
 		<!-- BoldChat Visitor Monitor HTML v4.00 (Website=- None -,ChatButton=- None -,ChatInvitation=- None -) -->
 		<script type="text/javascript">
 			var _bcvma = _bcvma || [];

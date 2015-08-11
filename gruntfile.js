@@ -56,10 +56,10 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks('grunt-contrib-uglify');
 	grunt.loadNpmTasks('grunt-contrib-imagemin');
 	grunt.loadNpmTasks('grunt-contrib-cssmin');
-	grunt.loadNpmTasks('grunt-contrib-watch');
+
 	
 	//4. where we tell grunt what to do when we type grunt into the terminal.
-	grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'cssmin', 'watch']);
+	grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'cssmin']);
 	
 	
 };

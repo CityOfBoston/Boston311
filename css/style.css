@@ -19,6 +19,7 @@
  h1#branding {
      margin-top: 0;
      margin-bottom: 0;
+	 display:none !important;
  }
 
 #nav_main ul li a {
@@ -75,6 +76,8 @@ label {
     font-weight: normal;
     font-style: normal;
 }
+
+
 
 
 
@@ -402,6 +405,7 @@ label {
 	#content-6 h3{	font-size: 24px; /*30*/}	
 	#content-7 h6{	font-size: 14px; /*13px*/}
 	#nav_main{	display: inline-table;}
+	
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){

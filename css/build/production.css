@@ -19,6 +19,7 @@
  h1#branding {
      margin-top: 0;
      margin-bottom: 0;
+	 display:none !important;
  }
 
 #nav_main ul li a {
@@ -78,12 +79,15 @@ label {
 
 
 
+
+
 /* page content styles */
 
 #content-0{
 	text-align:center;
 	background:white;
 	padding: 3%;
+	font-family: 'bree_serifregular';
 }
 
 #content-0 h3{
