@@ -516,19 +516,19 @@
 							<div>
 								<ul>
 									<li>
-										<a href="http://www.cityofboston.gov/consumeraffairs/" class="mainColLink">Live Entertainment (Annual 7 Day)</a>
+										<a href="http://www.cityofboston.gov/images_documents/Annual%20Live%20Entertainment%20Application%20(1)_tcm3-10001.pdf" class="mainColLink">Live Entertainment (Annual 7 Day)</a>
 									</li>
 									<li>
-										<a href="http://www.cityofboston.gov/consumeraffairs/" class="mainColLink">Non-Live Entertainment</a>
+										<a href="http://www.cityofboston.gov/images_documents/Annual%20Non%20Live%20Application_tcm3-9997.pdf" class="mainColLink">Non-Live Entertainment</a>
 									</li>
 									<li>
-										<a href=" http://www.cityofboston.gov/licensing/forms/" class="mainColLink">Fortune Teller</a>
+										<a href="http://www.cityofboston.gov/images_documents/FORTUNE%20TELLER%20application%20revised%203-2013_tcm3-18711.pdf" class="mainColLink">Fortune Teller</a>
 									</li>
 									<li>
-										<a href="http://www.cityofboston.gov/licensing/forms/" class="mainColLink">Pool / Billiard Table </a>
+										<a href="http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf" class="mainColLink">Pool / Billiard Table </a>
 									</li>
 									<li>
-										<a href="http://www.cityofboston.gov/licensing/forms/" class="mainColLink">Bowling Alley</a>
+										<a href="http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf" class="mainColLink">Bowling Alley</a>
 									</li>
 								</ul>
 							</div>
@@ -1748,25 +1748,25 @@
 							<div>
 								<ul>
 									<li>
-										<a href="/licensing/forms " class="mainColLink ">Fortune Teller</a>
+										<a href="http://www.cityofboston.gov/images_documents/FORTUNE%20TELLER%20application%20revised%203-2013_tcm3-18711.pdf" class="mainColLink ">Fortune Teller</a>
 									</li>
 									<li>
-										<a href="/licensing/forms " class="mainColLink ">Pool / Billiard Table </a>
+										<a href="http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf" class="mainColLink ">Pool / Billiard Table </a>
 									</li>
 									<li>
-										<a href="/licensing/forms " class="mainColLink ">Bowling Alley</a>
+										<a href="http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf" class="mainColLink ">Bowling Alley</a>
 									</li>
 									<li>
-										<a href="/consumeraffairs " class="mainColLink ">Live Entertainment (Annual 7 Day)</a>
+										<a href="http://www.cityofboston.gov/images_documents/Annual%20Live%20Entertainment%20Application%20(1)_tcm3-10001.pdf" class="mainColLink ">Live Entertainment (Annual 7 Day)</a>
 									</li>
 									<li>
-										<a href="/consumeraffairs " class="mainColLink ">Non-Live Entertainment</a>
+										<a href="http://www.cityofboston.gov/images_documents/Annual%20Non%20Live%20Application_tcm3-9997.pdf" class="mainColLink ">Non-Live Entertainment</a>
 									</li>
 									<li>
-										<a href="/consumeraffairs " class="mainColLink ">One-Time Entertainment</a>
+										<a href="http://www.cityofboston.gov/images_documents/One%20Time%20License%20Application_tcm3-10012.pdf" class="mainColLink ">One-Time Entertainment</a>
 									</li>
 									<li>
-										<a href="/consumeraffairs " class="mainColLink ">Automatic Amusement Devices</a>
+										<a href="http://www.cityofboston.gov/images_documents/Automatic%20Amusement%20Device%20%26%20Games%20Annual%20Application_tcm3-9996.pdf" class="mainColLink ">Automatic Amusement Devices</a>
 									</li>
 								</ul>
 							</div>
