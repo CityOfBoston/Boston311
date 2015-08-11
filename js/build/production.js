@@ -65,73 +65,6 @@ jQuery(document).ready(function () {
 
   $("#searchbar").select2({
     data: [{
-      text: "Animals",
-      children: [
-        {
-          "text": "Bed Bugs Inspection",
-          id: "/mayor/24?topic=bed-bugs"
-        },
-        {
-          "text": "Mice Infestation",
-          id: "/mayor/24?topic=mice-infestation-residential"
-        },
-        {
-          "text": "Pest Inspection",
-          id: "/mayor/24?topic=pst-infestation-residential"
-        },
-        {
-          "text": "Pigeon Infestation",
-          id: "/mayor/24?topic=pigeon-infestation"
-        },
-        {
-          "text": "Rat Bite",
-          id: "/mayor/24?topic=rat-bite"
-        },
-        {
-          "text": "Rodent Activity (outdoors)",
-          id: "https://311.boston.gov/reports/new?service_id=4f38920fe75084437f000188"
-        },
-        {
-          "text": "Mosquitoes (West Nile)",
-          id: "/mayor/24?topic=mosquitoes-west-nile"
-        },
-        {
-          "text": "Asian Longhorned Beetle",
-          id: "http://massnrc.org/pests/albreport.aspx"
-        },
-        {
-          "text": "Report A Lost Pet",
-          id: "/mayor/24?topic=lost-pet"
-        },
-        {
-          "text": "Search for Dog License",
-          id: "/animals/owners.asp"
-        },
-        {
-          "text": "Dog License Application",
-          id: "/animals/doglicense/"
-        },
-        {
-          "text": "Animal Bite",
-          id: "/mayor/24?topic=generic"
-        },
-        {
-          "text": "Barking / Noisy Dog",
-          id: "/mayor/24?topic=generic"
-        },
-        {
-          "text": "Dead Animal",
-          id: "https://311.boston.gov/reports/new?service_id=4f389210e75084437f0001c4"
-        },
-        {
-          "text": "Animal Shelter \u00bb",
-          id: "/animals/directions.asp"
-        },
-        {
-          "text": "Pet Care \u00bb",
-          id: "/animals/care/"
-        }
-      ]},{
 text: "Business",
       children: [
         {
@@ -284,7 +217,7 @@ text: "Business",
         },
         {
           "text": "Live Entertainment (Annual 7 Day)",
-          id: "http://www.cityofboston.gov/consumeraffairs/"
+          id: "http://www.cityofboston.gov/images_documents/Annual%20Live%20Entertainment%20Application%20(1)_tcm3-10001.pdf"
         },
         {
           "text": "Non-Live Entertainment",
@@ -292,15 +225,15 @@ text: "Business",
         },
         {
           "text": "Fortune Teller",
-          id: " http://www.cityofboston.gov/licensing/forms/"
+          id: "http://www.cityofboston.gov/images_documents/FORTUNE%20TELLER%20application%20revised%203-2013_tcm3-18711.pdf"
         },
         {
           "text": "Pool / Billiard Table ",
-          id: "http://www.cityofboston.gov/licensing/forms/"
+          id: "http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf"
         },
         {
           "text": "Bowling Alley",
-          id: "http://www.cityofboston.gov/licensing/forms/"
+          id: "http://www.cityofboston.gov/images_documents/tables%20and%20alleys%20license%20application_full_fillable_tcm3-48082.pdf"
         },
         {
           "text": "All Bids & RFPs",
@@ -1302,10 +1235,6 @@ text: "Transporation, Streets & Sidewalks",
           id: "/mayor/24?topic=pavement-marking-new"
         },
         {
-          "text": "Bike Lane Marking Repair",
-          id: "/mayor/24?topic=pavement-marking-maintenance"
-        },
-        {
           "text": "Pavement Marking Repair",
           id: "/mayor/24?topic=pavement-marking-maintenance"
         },
@@ -1526,10 +1455,6 @@ text: "Transporation, Streets & Sidewalks",
           id: "/contact/?id=179"
         },
         {
-          "text": "Register for Bike Events ",
-          id: "http://www.surveymonkey.com/s/GZVLXX6"
-        },
-        {
           "text": "Register your Bike",
           id: "http://www.nationalbikeregistry.com/register.html"
         },
@@ -1584,10 +1509,6 @@ text: "Transporation, Streets & Sidewalks",
         {
           "text": "Public Transportation Complaint",
           id: "http://www.mbta.com/customer_support/feedback/"
-        },
-        {
-          "text": "Service Delay Alerts",
-          id: "http://www.talerts.com/SubscribeAlerts.aspx"
         },
         {
           "text": "Pedestrian Safety Issue",

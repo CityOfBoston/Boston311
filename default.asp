@@ -79,11 +79,12 @@
 		<div id="layout">
 			<div class="pure-g">
 				<div class="pure-u-1" id="header">
-					<img class="pure-img" id="311head" src="css/build/images/web-header.png"/>
-					<div id="doc4" class="department">
+					
+					<div id="doc4" class="home">
 						<!--This pulls the header from system/-->
 						<!--#include virtual="/includes/xhtml/banner.inc"-->
 					</div>
+					<!--<img class="pure-img" id="311head" src="css/build/images/web-header.png"/>-->
 				</div>
 				<div class="pure-u-1" id="content-1">
 					<div id="title">
