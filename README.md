@@ -22,7 +22,7 @@ The following components were used in building this page:
 
 ####Notes:
 
-- When updataing the object for the search bar in '''searchbar.js''', you must manually change the same links for the container panels in '''default.asp'''. 
+- When updating the object for the search bar in '''searchbar.js''', you must manually change the same links for the container panels in '''default.asp'''. 
 
 ###Refactoring
 
