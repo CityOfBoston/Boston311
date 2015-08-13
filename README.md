@@ -41,7 +41,7 @@ A little bit about the file structure:
     - faq-panels.js/services-panels.js manage the jquery for the show/hide buttons for the panels as well as the on-click-header expand/collapse functionality.
 - **030-060.asp** are some Tridion files
 - **system/** is a folder that contains some files that are used by the master COB website
-- 
+
 ####Notes:
 
 - When updating the object for the search bar in '''searchbar.js''', you must manually change the same links for the container panels in '''default.asp'''. 
