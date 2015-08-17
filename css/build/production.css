@@ -366,13 +366,14 @@ label {
   color: #276598;
 }
 
-#content-7 .faq-content #track{
+#content-7 .faq-content h6 #track{
 	font-weight: bold;
 }
 
-#content-7 .faq-content #here{
+#content-7 .faq-content h6 #here{
 	text-decoration: underline;
 }
+
 
 
 .pure-button { 
