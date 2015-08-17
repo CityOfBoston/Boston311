@@ -2660,7 +2660,7 @@
 										<div class="Content">
 											<h6>Once you have successfully submitted your request, you will receive an email with a tracking number that you can use to
 												monitor your request.
-												<a href="http://mayors24.boston.gov/Ef3/SSP_TrackCase.xml"> You can track your service request here</a>
+												<id="track"><a href="http://mayors24.boston.gov/Ef3/SSP_TrackCase.xml"> You can track your service request <id="here">here</id></a></id>
 											</h6>
 											<br />
 										</div>

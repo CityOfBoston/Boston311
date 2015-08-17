@@ -168,7 +168,7 @@
                                                                 
 				
           				
-                                                                        <li><a href="http://cityofboston.gov/online_services/payments/mooringpermit.asp">Boat Mooring Permit</a></li>
+                                                                        <li><a href="http://cityofboston.gov/payments/mooringpermit.asp">Boat Mooring Permit</a></li>
                                                                 
 
                                                                 
