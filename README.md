@@ -2,7 +2,8 @@
 
 On August 11, 2015, the City of Boston launched Boston-311. 
 This landing page is live at boston.gov/311
-couldn't have been done without the help of @alchenist
+
+#####couldn't have been done without the help of [@alchenist](https://github.com/alchenist)
 
 ###Live Staging / Test
 
