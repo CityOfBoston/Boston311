@@ -128,7 +128,7 @@
 					<div class="box-2">
 						<a href="#"><img class="pure-img" src="css/build/images/screen.png" alt="" /></a>
 						<h3>
-							<a href="#">Use this site</a>
+							<a href="#section-3">Use this site</a>
 						</h3>
 					</div>
 				</div>
