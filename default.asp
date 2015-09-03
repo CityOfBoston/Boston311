@@ -126,9 +126,9 @@
 				</div>
 				<div class="pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 					<div class="box-2">
-						<a href="#"><img class="pure-img" src="css/build/images/screen.png" alt="" /></a>
+						<a href="#content-3"><img class="pure-img" src="css/build/images/screen.png" alt="" /></a>
 						<h3>
-							<a href="#section-3">Use this site</a>
+							<a href="#content-3">Use this site</a>
 						</h3>
 					</div>
 				</div>
