@@ -71,12 +71,12 @@
 	<!---- custom header tags=====================================================- -->
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<link href="//cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/css/select2.min.css" rel="stylesheet" />
-<!--
-	<link rel="stylesheet" runat="server" href="css/build/production.css" type="text/css" media="all" />-->
-	
+
+	<link rel="stylesheet" runat="server" href="css/build/production.css" type="text/css" media="all" />
+	<!--
 	<link rel="stylesheet" runat="server" href="css/panels.css" type="text/css" media="all" />
 	<link rel="stylesheet" runat="server" href="css/style.css" type="text/css" media="all" />
-	
+	-->
 
 
 	</head>
@@ -2686,7 +2686,7 @@
 			</div>
 			<div class="pure-u-1-3 pure-md-1-3 pure-lg-1-3">
 				<h6>
-					<a href="http://www.cityofboston.gov/copyright/default.asp">&#169; City of Boston. All rights reserved.</a>
+					<a href="http://www.cityofboston.gov/copyright/default.asp">© 2015 City of Boston. All rights reserved.</a>
 				</h6>
 			</div>
 		</div>
@@ -2695,12 +2695,11 @@
 		<!----=============================javascript land========================- ->
 		        <!-- placed at the bottom so that the pages load faster -->
 		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-		<!--<script type="text/javascript" src="js/build/production.min.js"></script>-->
-		
-		<script type="text/javascript" src="js/services-panels.js"></script>
+		<script type="text/javascript" src="js/build/production.min.js"></script>
+		<!--<script type="text/javascript" src="js/services-panels.js"></script>
 			<script type="text/javascript" src="js/faq-panels.js"></script>
 			<script type="text/javascript" src="js/searchbar.js"></script>
-			<script src="https://code.jquery.com/jquery-2.0.3.js"></script>
+			<script src="https://code.jquery.com/jquery-2.0.3.js"></script>-->
 		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.js"></script>-->
 		<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.0/js/select2.min.js"></script>
