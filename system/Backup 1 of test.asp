@@ -1,5 +1,5 @@
 <%
-  Response.CacheControl="max-age=120, Public"
+  Response.CacheControl="max-age=59, Public"
   Response.CharSet = "utf-8"
 %><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,7 +16,6 @@
 
      <link rel="stylesheet" href="/system/css/reset-fonts-grids.css" type="text/css" media="all" />
      <link rel="stylesheet" href="/system/css/style.css" type="text/css" media="all" />
-     <link rel="stylesheet" type="text/css" href="/includes/css/print.css" media="print" />
      <link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico" />
 
      <script type="text/javascript" src="/foresee/foresee-trigger.js"></script>
@@ -24,9 +23,7 @@
      <script type="text/javascript" src="/system/js/script.js"></script>
 
 
-
-     <!--[if lte IE 6]><link rel="stylesheet" href="/system/css/ie.css" type="text/css"><![endif]-->
-
+     <!--[if lte IE 6]><link rel="stylesheet" href="/system/css/ie.css" type="text/css"><![endif]--> 
 <!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable -->
 
 <!--Google Analytics-->
@@ -45,13 +42,12 @@
 
 </head>
 
-
 <body>
 
 
 
 
-       <div id="doc4" class="home">
+       <div id="doc4" class="department">
 
 
 <div id="page_wrapper">
@@ -61,11 +57,11 @@
 
 	   
     
-        
-        
-            <div id="hd_inner" >
-        
 	
+         
+         
+             <div id="hd_inner" class="hd_default" >
+         
 	
 		
 <a href="http://www.cityofboston.gov/">
@@ -87,7 +83,7 @@
           xslTemplate.stylesheet = objXSL
           set xslProc = xslTemplate.createProcessor()
         
-          paramVal1 = "tcm:3-20886-64"
+          paramVal1 = "tcm:3-25058-64"
           if paramVal1 <> "" then
             xslProc.addParameter "currentPage", paramVal1
           end if
@@ -133,16 +129,12 @@
 
 <!--    Start OnLine Service component    -->
 
-	<!--    End OnLine Service component    -->
-					
 
-	<!--    Start Contact component    -->                                                                             
-	<!--    End Contact component    -->
 
-	
-	<h2><a href="/government/citydept.asp" class="header">City Departments &raquo;</a></h2>
-		<ul>
-			<!--    Start Department component    -->
+
+
+
+			<!--    Start Left Navigation    -->
 			<%
 			  'Dim objXML, objXSL, xslTemplate, xslProc, paramVal1, paramVal2
 			
@@ -152,40 +144,66 @@
 			
 			  set objXSL = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
 			  objXSL.async = false
-			  objXSL.load(Server.MapPath("/system/xslt/drop.xslt"))
+			  objXSL.load(Server.MapPath("/system/xslt/left.xslt"))
 			
 			  set xslTemplate = Server.CreateObject("MSXML2.XSLTemplate")
 			  xslTemplate.stylesheet = objXSL
 			  set xslProc = xslTemplate.createProcessor()
 			
-			 'paramVal1 = "tcm:3-20886-64" 
-			  'if paramVal1 <> "" then
-			  '  xslProc.addParameter "currentPage", paramVal1
-			  'end if
+			  paramVal1 = "tcm:3-25058-64"
+			  if paramVal1 <> "" then
+				xslProc.addParameter "currentPage", paramVal1
+			  end if
+			  
+			  paramVal2 = "default"
+			  if paramVal2 <> "" then
+				xslProc.addParameter "ifCSS", paramVal2
+			  end if
 			
 			  xslProc.input = objXML
 			  xslProc.transform()
 			  Response.Write(xslProc.output)
-			%><!--    End Department component    -->
-		</ul>
+			%><!--    End Left Navigation    -->
 
+		  
+    
 	
-		<ul>
-			
-		<li><a href=""></a></li>
-		</ul>
-		<!-- TemplateEndRepeat -->
-
-
-
-
+	<ul class="default_form">
+	<li><strong>City Departments</strong></li>
+		<!--    Start Department component    -->
+		<%
+		  'Dim objXML, objXSL, xslTemplate, xslProc, paramVal1, paramVal2
+		
+		  set objXML = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
+		  objXML.async = false
+		  objXML.load(Server.MapPath("/system/xml/navigation.xml"))
+		
+		  set objXSL = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
+		  objXSL.async = false
+		  objXSL.load(Server.MapPath("/system/xslt/drop.xslt"))
+		
+		  set xslTemplate = Server.CreateObject("MSXML2.XSLTemplate")
+		  xslTemplate.stylesheet = objXSL
+		  set xslProc = xslTemplate.createProcessor()
+		
+		 'paramVal1 = "tcm:3-25058-64" 
+		  'if paramVal1 <> "" then
+		  '  xslProc.addParameter "currentPage", paramVal1
+		  'end if
+		
+		  xslProc.input = objXML
+		  xslProc.transform()
+		  Response.Write(xslProc.output)
+		%><!--    End Department component    -->
+    </ul>      
+    
 
 </div><!-- Close #nav_sub -->
 
 <div id="content_sub">
 	<div id="search">
-      <form method="get" name="searchform" action="http://search.cityofboston.gov/search">
-<input type="hidden" name="site" value="All_Cityofboston"/>
+      <form method="get" name="searchform" action=" http://search.cityofboston.gov/search">
+          <input type="hidden" name="site" value="All_Cityofboston"/>
           <input type="hidden" name="client" value="cob_frontend"/>
           <input type="hidden" name="proxystylesheet" value="cob_frontend"/>
           <input type="hidden" name="output" value="xml_no_dtd"/>
@@ -221,9 +239,10 @@
 
                                                                 
       
-	</ul>
+	</ul><!-- Close #nav_sub_footer -->
 </div><!-- Close #nav_sub_footer -->
 </div><!-- Close #bd_wrapper -->
+
 <div id="ft_wrapper"><div id="ft">
       <ul>
           			
@@ -233,7 +252,7 @@
 
                                                                 
           
-          <li><a href="/copyright/default.asp">&#169; City of Boston. All rights reserved.</a><a href=""></a></li>
+          <li><a href="/copyright/default.asp">&#169; 2014 City of Boston. All rights reserved.</a><a href=""></a></li>
       </ul>
 </div><!-- Close #ft -->
 </div><!-- Close #ft_wrapper -->
@@ -241,7 +260,7 @@
 <!-- Start social media -->
 <div id="socialmedia_bar">
 	<div id="feedbackcode">
-		<a href="#" title="Give us your feedback!" onclick="FBY.showForm('1162');return false;"><img src="/images/feedbackifylg.png" class="feedbackify_btn" /></a>
+		<a href="#" title="Give us your feedback!" onclick="FBY.showForm('1162');return false;"><img src="http://www.cityofboston.gov/images/feedbackifylg.png" class="feedbackify_btn"></a>
 	</div>
 	<div id="addthiscode">
 		<div class="addthis_toolbox addthis_default_style addthis_16x16_style">
@@ -249,13 +268,14 @@
 		<a class="addthis_button_email" title="email"></a>
 		<a class="addthis_button_print" title="print"></a> 
 		<a class="addthis_button_favorites" title="Add to Favorites"></a>
-		<a class="addthis_button_facebook" title="Share to Facebook"><img src="/images/addthis/facebook.png" /></a>
-		<a class="addthis_button_twitter" title="Tweet This"><img src="/images/addthis/twitter.png" /></a>
-		<a class="addthis_button_reddit" title="Reddit This"><img src="/images/addthis/reddit.png" /></a>
+		<a class="addthis_button_facebook" title="Share to Facebook"><img src="http://www.cityofboston.gov/images/addthis/facebook.png" /></a>
+		<a class="addthis_button_twitter" title="Tweet This"><img src="http://www.cityofboston.gov/images/addthis/twitter.png" /></a>
+		<a class="addthis_button_reddit" title="Reddit This"><img src="http://www.cityofboston.gov/images/addthis/reddit.png" /></a>
 		<a class="addthis_button_compact"></a>
 		</div>
 	</div>
 
+	
 <script type="text/javascript">var addthis_config = { data_ga_property: 'UA-2187282-1', data_ga_social: true }; </script>
 <script type="text/javascript" src="//s7.addthis.com/js/250/addthis_widget.js#username=cobwebmaster"></script>
 

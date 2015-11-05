@@ -2686,7 +2686,7 @@
 			</div>
 			<div class="pure-u-1-3 pure-md-1-3 pure-lg-1-3">
 				<h6>
-					<a href="http://www.cityofboston.gov/copyright/default.asp">&#169; City of Boston. All rights reserved.</a>
+					<a href="http://www.cityofboston.gov/copyright/default.asp">© 2015 City of Boston. All rights reserved.</a>
 				</h6>
 			</div>
 		</div>

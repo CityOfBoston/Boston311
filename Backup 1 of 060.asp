@@ -87,7 +87,7 @@
           xslTemplate.stylesheet = objXSL
           set xslProc = xslTemplate.createProcessor()
         
-          paramVal1 = "tcm:3-20886-64"
+          paramVal1 = "tcm:3-48674-64"
           if paramVal1 <> "" then
             xslProc.addParameter "currentPage", paramVal1
           end if
@@ -158,7 +158,7 @@
 			  xslTemplate.stylesheet = objXSL
 			  set xslProc = xslTemplate.createProcessor()
 			
-			 'paramVal1 = "tcm:3-20886-64" 
+			 'paramVal1 = "tcm:3-48674-64" 
 			  'if paramVal1 <> "" then
 			  '  xslProc.addParameter "currentPage", paramVal1
 			  'end if
@@ -233,7 +233,7 @@
 
                                                                 
           
-          <li><a href="/copyright/default.asp">&#169; City of Boston. All rights reserved.</a><a href=""></a></li>
+          <li><a href="/copyright/default.asp">&#169; 2014 City of Boston. All rights reserved.</a><a href=""></a></li>
       </ul>
 </div><!-- Close #ft -->
 </div><!-- Close #ft_wrapper -->

@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title> | City of Boston</title>
+<title>Boat Mooring Permit | City of Boston</title>
 <!-- TemplateEndEditable -->
      <meta name="keywords" content="" />
      <meta name="description" content=""/>
@@ -61,11 +61,11 @@
 
 	   
     
-        
-        
-            <div id="hd_inner" >
-        
 	
+         
+         
+             <div id="hd_inner" class="hd_default" >
+         
 	
 		
 <a href="http://www.cityofboston.gov/">
@@ -87,7 +87,7 @@
           xslTemplate.stylesheet = objXSL
           set xslProc = xslTemplate.createProcessor()
         
-          paramVal1 = "tcm:3-20886-64"
+          paramVal1 = "tcm:3-39421-64"
           if paramVal1 <> "" then
             xslProc.addParameter "currentPage", paramVal1
           end if
@@ -113,7 +113,43 @@
 
 			
 <div id="content_main_inner">
+<div class="sub_main_hd">
 
+
+
+
+                   <div class="content">
+                   <h2>Boat Mooring Permit</h2>
+                   
+                               <p><p>Per Massachusetts General Law (<a href="http://www.amlegal.com/nxt/gateway.dll/Massachusetts/boston/chapterxviprohibitionspenaltiesandpermit?f=templates$fn=default.htm$3.0$vid=amlegal:boston_ma$anc=LPTOC51" target="_blank">City of Boston Code, Chapter 16 Section 48</a>), boats are not allowed to moor or dock in Boston waters without first obtaining a permit from the City. This permit must be displayed on the port side of the boat, near the transom.</p></p>
+                   
+	   </div>
+
+
+</div>
+
+
+
+
+<div class="content_main_sub">
+                      <br /><strong>Apply for a NEW Boat Mooring Permit</strong> (for new permits only - do not use for changes to an existing permit (e.g. change of vessel) 
+<div class="bluebox"><h5><img src="http://www.cityofboston.gov/mayor/24/images/icon_email_25.png" /> Apply Via Mail</h5><ol><li><p>Download the  <a href="<%= Server.CreateObject("cd_link.BinaryLink").GetLink("tcm:0-3-1", "tcm:3-50893", "AA", "BB", "CC", true).URL %>" class="pdf" target="_blank" >2015 Boat Mooring Permit Application</a></p></li><li><p>Complete the form fully (incomplete forms may delay processing)</p></li><li><p>Attach a copy of the vessel registration or Certificate of Documentation (whichever applies)</p></li><li><p>If vessel was purchased after July 1, 2014, provide a copy of bill of sale</p></li><li><p>Submit the application and associated permit fee</p></li></ol><p>Mail paperwork to:</p><p><strong>Collector of Taxes
+<br /></strong> City of Boston
+<br />
+P.O. Box 9711
+<br />
+Boston, MA 02114-9711</p></div><div class="bluebox"><h5><img src="http://siteedit/mayor/24/images/icon_inperson_25.png" /> Apply In Person</h5><ol><li><p>Fill out the <a href="<%= Server.CreateObject("cd_link.BinaryLink").GetLink("tcm:0-3-1", "tcm:3-50893", "AA", "BB", "CC", true).URL %>" class="pdf" target="_blank" >2015 Boat Mooring Permit Application</a><em>(all sections <strong>must</strong> be completed).</em></p></li><li><p>Complete the form fully (incomplete forms may delay processing)</p></li><li><p>Attach a copy of the vessel registration or Certificate of Documentation (whichever applies)</p></li><li><p>If vessel was purchased after July 1, 2014, provide a copy of the bill of sale</p></li><li><p>Bring the application and associated permit fee to Boston City Hall</p></li></ol><p><strong>Treasury Department- Collecting Division</strong><strong><br /></strong>Boston City Hall, <strong>Window M-31 
+<br /></strong> 1 City Hall Square
+<br />
+Boston, MA 02201</p></div><p><strong>NOTE:</strong> New applications are subject to the approval of the Boston Police Department, Harbormaster. Upon approval a Boat Excise tax bill will be created for the vessel (if applicable-vessels purchased after July 1, 2014 will not be required to pay excise tax). Upon payment of the excise tax (if applicable) a permit will be issued.</p><strong>Renew An Existing Boat Mooring Permit</strong><div class="bluebox"><h5><img src="http://www.cityofboston.gov/mayor/24/images/icon_online_25.png" /> Renew Online</h5><p>Renew your Boat Mooring Permit <a href="http://invoicecloud.com/cityofboston" target="_blank">online</a>.</p><p>*Note: this is for those who were issued a permit in 2014. If you have changes to an existing permit (e.g. change of vessel, address, etc.) you must submit your renewal notice with those changes, by mail to the address noted below. </p><p><br /><strong>Boat Mooring Payments
+<br /></strong> P.O. Box 9711
+<br />
+Boston, MA 02114</p></div><div class="bluebox"><h5><img src="http://siteedit/mayor/24/images/icon_inperson_25.png" /> Renew In Person</h5><p>*Note: this is for those who were issued a permit in 2014. If you have changes to an existing permit (e.g. change of vessel, address, etc.) you must submit your renewal notice with those changes, by mail to the address noted below.</p><ol><li>Upon receipt of your renewal notice mail, you may come to Boston City Hall</li><li>If changes such as a new vessel, bring a copy of the Vessel Registration or Certificate of Documentation</li><li>If making changes to he residency (address) a copy of your valid driver's license will be required</li></ol><p><strong>Treasury Department - Collecting Division 
+<br /></strong> Boston City Hall, <strong>Window M-31 
+<br /></strong> 1 City Hall Square
+<br />
+Boston, MA 02201</p></div><p><strong>NOTE</strong>: Approval of the renewal of a Boat Mooring Permit is subject to the payment of Boat Excise Tax (if applicable).</p><div class="bluebox"><h3>Questions?</h3><br /><ul><li><p>Review our <a href="http://siteedit/assessing/faq.asp">Frequently Asked Questions</a>.</p></li><li><p>About your mooring location assignment, please contact the Harbor Master at 617-343-4721/</p></li><li><p>Regarding renewal or Boat Excise Tax payments, please contact the <a href="mailto:collecting@cityofboston.gov">Collector's Office</a> or call 617-635-4129.</p></li><li><p>On the mooring permit ordinance, permit, or permitting process, please contact the <a href="mailto:collecting@cityofboston.gov">Collector's Office</a> or call 617-635-4129.</p></li></ul></div>
+</div>
 
 
 <div class='SegmentHolder'>
@@ -133,16 +169,12 @@
 
 <!--    Start OnLine Service component    -->
 
-	<!--    End OnLine Service component    -->
-					
 
-	<!--    Start Contact component    -->                                                                             
-	<!--    End Contact component    -->
 
-	
-	<h2><a href="/government/citydept.asp" class="header">City Departments &raquo;</a></h2>
-		<ul>
-			<!--    Start Department component    -->
+
+
+
+			<!--    Start Left Navigation    -->
 			<%
 			  'Dim objXML, objXSL, xslTemplate, xslProc, paramVal1, paramVal2
 			
@@ -152,33 +184,59 @@
 			
 			  set objXSL = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
 			  objXSL.async = false
-			  objXSL.load(Server.MapPath("/system/xslt/drop.xslt"))
+			  objXSL.load(Server.MapPath("/system/xslt/left.xslt"))
 			
 			  set xslTemplate = Server.CreateObject("MSXML2.XSLTemplate")
 			  xslTemplate.stylesheet = objXSL
 			  set xslProc = xslTemplate.createProcessor()
 			
-			 'paramVal1 = "tcm:3-20886-64" 
-			  'if paramVal1 <> "" then
-			  '  xslProc.addParameter "currentPage", paramVal1
-			  'end if
+			  paramVal1 = "tcm:3-39421-64"
+			  if paramVal1 <> "" then
+				xslProc.addParameter "currentPage", paramVal1
+			  end if
+			  
+			  paramVal2 = "default"
+			  if paramVal2 <> "" then
+				xslProc.addParameter "ifCSS", paramVal2
+			  end if
 			
 			  xslProc.input = objXML
 			  xslProc.transform()
 			  Response.Write(xslProc.output)
-			%><!--    End Department component    -->
-		</ul>
+			%><!--    End Left Navigation    -->
 
+		  
+    
 	
-		<ul>
-			
-		<li><a href=""></a></li>
-		</ul>
-		<!-- TemplateEndRepeat -->
-
-
-
-
+	<ul class="default_form">
+	<li><strong>City Departments</strong></li>
+		<!--    Start Department component    -->
+		<%
+		  'Dim objXML, objXSL, xslTemplate, xslProc, paramVal1, paramVal2
+		
+		  set objXML = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
+		  objXML.async = false
+		  objXML.load(Server.MapPath("/system/xml/navigation.xml"))
+		
+		  set objXSL = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
+		  objXSL.async = false
+		  objXSL.load(Server.MapPath("/system/xslt/drop.xslt"))
+		
+		  set xslTemplate = Server.CreateObject("MSXML2.XSLTemplate")
+		  xslTemplate.stylesheet = objXSL
+		  set xslProc = xslTemplate.createProcessor()
+		
+		 'paramVal1 = "tcm:3-39421-64" 
+		  'if paramVal1 <> "" then
+		  '  xslProc.addParameter "currentPage", paramVal1
+		  'end if
+		
+		  xslProc.input = objXML
+		  xslProc.transform()
+		  Response.Write(xslProc.output)
+		%><!--    End Department component    -->
+    </ul>      
+    
 
 </div><!-- Close #nav_sub -->
 
@@ -233,7 +291,7 @@
 
                                                                 
           
-          <li><a href="/copyright/default.asp">&#169; City of Boston. All rights reserved.</a><a href=""></a></li>
+          <li><a href="/copyright/default.asp">&#169; 2014 City of Boston. All rights reserved.</a><a href=""></a></li>
       </ul>
 </div><!-- Close #ft -->
 </div><!-- Close #ft_wrapper -->

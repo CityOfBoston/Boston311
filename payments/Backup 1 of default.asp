@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <!-- TemplateBeginEditable name="doctitle" -->
-<title> | City of Boston</title>
+<title>Online Payments | City of Boston</title>
 <!-- TemplateEndEditable -->
      <meta name="keywords" content="" />
      <meta name="description" content=""/>
@@ -61,11 +61,11 @@
 
 	   
     
-        
-        
-            <div id="hd_inner" >
-        
 	
+         
+         
+             <div id="hd_inner" class="hd_default" >
+         
 	
 		
 <a href="http://www.cityofboston.gov/">
@@ -87,7 +87,7 @@
           xslTemplate.stylesheet = objXSL
           set xslProc = xslTemplate.createProcessor()
         
-          paramVal1 = "tcm:3-20886-64"
+          paramVal1 = "tcm:3-38835-64"
           if paramVal1 <> "" then
             xslProc.addParameter "currentPage", paramVal1
           end if
@@ -113,8 +113,106 @@
 
 			
 <div id="content_main_inner">
+<div class="sub_main_hd">
 
 
+
+
+                   <div class="content">
+                   <h2>Make Payments Online</h2>
+                   
+                               <p>The City of Boston is proud to offer online payment options for a variety of invoices, permits, and services.</p>
+                   
+	   </div>
+
+
+</div>
+
+
+
+	<h3 class="section_hd">Taxes </h3>
+	<ul class="block blue">
+				
+          				
+                                                                        <li><a href="http://invoicecloud.com/cityofboston">Real Estate Tax </a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="http://www.invoicecloud.com/cityofboston">Personal Property Tax</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="http://www.invoicecloud.com/cityofboston">Motor Vehicle Excise Tax</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="http://www.invoicecloud.com/cityofboston">Boat Excise Tax</a></li>
+                                                                
+
+                                                                
+	
+	</ul>
+	<h3 class="section_hd">Permits</h3>
+	<ul class="block blue">
+				
+          				
+                                                                        <li><a href="https://onlinepermitsandlicenses.cityofboston.gov/isdpermits/">ISD Building Permits</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="http://cityofboston.gov/payments/mooringpermit.asp">Boat Mooring Permit</a></li>
+                                                                
+
+                                                                
+	
+	</ul>
+	<h3 class="section_hd">Services</h3>
+	<ul class="block blue">
+				
+          				
+                                                                        <li><a href="http://www.invoicecloud.com/cityofboston">Physician Registration</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="https://pci.etimspayments.com/pbw/include/boston/input.jsp">Pay Parking Tickets</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="https://wmq.etimspayments.com/pbw/include/orderentry/boston/input.jsp">Buy Parking Meter Cards</a></li>
+                                                                
+
+                                                                
+				
+          				
+                                                                        <li><a href="http://www.cityofboston.gov/animals/licenseapp/">Dog Licensing</a></li>
+                                                                
+
+                                                                
+	
+	</ul>
+<div class="content_main_sub">
+<div class="bluebox">
+
+
+              
+
+<h4>Don't Want to Pay Online?</h4><p>The City of Boston also accepts the following payment methods:</p><br /><ul><li>By mail </li><li>In person</li><li>Via phone (parking tickets only)</li></ul><h4>Still Need Help?</h4><p>Review our <a href="/online_services/payments/faqs.asp">Frequently Asked Questions &#187;
+<br /></a> Email Us: <a href="mailto:OnlinePayments@cityofboston.gov">OnlinePayments@cityofboston.gov</a></p>
+
+</div>
+</div>
 
 <div class='SegmentHolder'>
 
@@ -133,16 +231,12 @@
 
 <!--    Start OnLine Service component    -->
 
-	<!--    End OnLine Service component    -->
-					
 
-	<!--    Start Contact component    -->                                                                             
-	<!--    End Contact component    -->
 
-	
-	<h2><a href="/government/citydept.asp" class="header">City Departments &raquo;</a></h2>
-		<ul>
-			<!--    Start Department component    -->
+
+
+
+			<!--    Start Left Navigation    -->
 			<%
 			  'Dim objXML, objXSL, xslTemplate, xslProc, paramVal1, paramVal2
 			
@@ -152,33 +246,59 @@
 			
 			  set objXSL = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
 			  objXSL.async = false
-			  objXSL.load(Server.MapPath("/system/xslt/drop.xslt"))
+			  objXSL.load(Server.MapPath("/system/xslt/left.xslt"))
 			
 			  set xslTemplate = Server.CreateObject("MSXML2.XSLTemplate")
 			  xslTemplate.stylesheet = objXSL
 			  set xslProc = xslTemplate.createProcessor()
 			
-			 'paramVal1 = "tcm:3-20886-64" 
-			  'if paramVal1 <> "" then
-			  '  xslProc.addParameter "currentPage", paramVal1
-			  'end if
+			  paramVal1 = "tcm:3-38835-64"
+			  if paramVal1 <> "" then
+				xslProc.addParameter "currentPage", paramVal1
+			  end if
+			  
+			  paramVal2 = "default"
+			  if paramVal2 <> "" then
+				xslProc.addParameter "ifCSS", paramVal2
+			  end if
 			
 			  xslProc.input = objXML
 			  xslProc.transform()
 			  Response.Write(xslProc.output)
-			%><!--    End Department component    -->
-		</ul>
+			%><!--    End Left Navigation    -->
 
+		  
+    
 	
-		<ul>
-			
-		<li><a href=""></a></li>
-		</ul>
-		<!-- TemplateEndRepeat -->
-
-
-
-
+	<ul class="default_form">
+	<li><strong>City Departments</strong></li>
+		<!--    Start Department component    -->
+		<%
+		  'Dim objXML, objXSL, xslTemplate, xslProc, paramVal1, paramVal2
+		
+		  set objXML = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
+		  objXML.async = false
+		  objXML.load(Server.MapPath("/system/xml/navigation.xml"))
+		
+		  set objXSL = Server.CreateObject("MSXML2.FreeThreadedDOMDocument")
+		  objXSL.async = false
+		  objXSL.load(Server.MapPath("/system/xslt/drop.xslt"))
+		
+		  set xslTemplate = Server.CreateObject("MSXML2.XSLTemplate")
+		  xslTemplate.stylesheet = objXSL
+		  set xslProc = xslTemplate.createProcessor()
+		
+		 'paramVal1 = "tcm:3-38835-64" 
+		  'if paramVal1 <> "" then
+		  '  xslProc.addParameter "currentPage", paramVal1
+		  'end if
+		
+		  xslProc.input = objXML
+		  xslProc.transform()
+		  Response.Write(xslProc.output)
+		%><!--    End Department component    -->
+    </ul>      
+    
 
 </div><!-- Close #nav_sub -->
 
@@ -195,7 +315,56 @@
           <input type="submit" class="button" value="Go!" />
       </form>
 	</div><!-- Close #search -->
+ 	<h2 class="header">Announcements</h2>
+ 	<ul>
+ 	<li>
+ 	<p><b>Convenience Fee for Using Credit Cards Online</b></p>
+ 	<p><p>There is a percentage-based online payment convenience fee charged by an outside service provider for their role in facilitating your payment via the Internet. <strong><em>The City of Boston receives no portion of this fee.</em></strong> The convenience fee is 2.95% of total payment - $1.00 minimum charge and is non-refundable. The fee is shown on the payment page before you submit your payment for processing. The convenience fee will appear as a separate charge from the bill amount on your credit card statement.
+<br />
+ </p></p>
+ 	</li>
+ 	</ul>
 
+
+
+	<h2 class="header">Related Departments</h2>
+
+
+<ul>
+
+
+          				
+                                                                        <li><a href="/assessing">Assessing Department</a></li>
+                                                                
+
+                                                                
+
+          				
+                                                                        <li><a href="/treasury/collecting/">Collecting </a></li>
+                                                                
+
+                                                                
+
+          				
+                                                                        <li><a href="/parking/">Parking Clerk</a></li>
+                                                                
+
+                                                                
+
+          				
+                                                                        <li><a href="/assessing/trac.asp">Taxpayer Referral & Assistance Center</a></li>
+                                                                
+
+                                                                
+
+          				
+                                                                        <li><a href="/treasury/">Treasury Department</a></li>
+                                                                
+
+                                                                
+
+
+</ul>
      
 </div><!-- Close #content_sub -->
 <div id="content_sub_footer"></div><!-- This adds the bottom border to the bottom of #content_sub -->
@@ -233,7 +402,7 @@
 
                                                                 
           
-          <li><a href="/copyright/default.asp">&#169; City of Boston. All rights reserved.</a><a href=""></a></li>
+          <li><a href="/copyright/default.asp">&#169; 2014 City of Boston. All rights reserved.</a><a href=""></a></li>
       </ul>
 </div><!-- Close #ft -->
 </div><!-- Close #ft_wrapper -->

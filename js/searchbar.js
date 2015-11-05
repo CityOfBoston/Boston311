@@ -583,6 +583,10 @@ text: "Health, Safety & Social Services",
           id: "/fire/PGA.asp"
         },
         {
+          "text:": "Other Request",
+          id: "/mayor/24?topic=generic"
+        }
+        {
           "text": "Restaurant Health Ratings",
           id: "/isd/health/mfc/court.asp"
         },
@@ -1269,6 +1273,10 @@ text: "Transporation, Streets & Sidewalks",
           "text": "Request New Bike Lane Marking",
           id: "/mayor/24?topic=pavement-marking-new"
         },
+        {
+          "text":"'Report an Abandoned Bike",
+          id: "https://311.boston.gov/reports/new?service_id=4f38920fe75084437f00019c"
+        }
         {
           "text": "Pavement Marking Repair",
           id: "/mayor/24?topic=pavement-marking-maintenance"

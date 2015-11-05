@@ -291,7 +291,7 @@ Boston, MA 02201</p></div><p><strong>NOTE</strong>: Approval of the renewal of a
 
                                                                 
           
-          <li><a href="/copyright/default.asp">&#169; 2014 City of Boston. All rights reserved.</a><a href=""></a></li>
+          <li><a href="/copyright/default.asp">&#169; City of Boston. All rights reserved.</a><a href=""></a></li>
       </ul>
 </div><!-- Close #ft -->
 </div><!-- Close #ft_wrapper -->
