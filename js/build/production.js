@@ -252,10 +252,6 @@ jQuery(document).ready(function () {
           id: "/mayor/24?topic=sidewalk-snow"
         },
         {
-          "text": "Report Business Plowing Snow Onto City Sidewalk",
-          id: "/mayor/24?topic=illegal-dumping"
-        },
-        {
           "text": "Consumer Complaint Form",
           id: "http://www.cityofboston.gov/consumeraffairs/consumeraffairs.asp"
         },
@@ -1370,10 +1366,6 @@ text: "Transporation, Streets & Sidewalks",
           id: "/publicworks/sweeping/"
         },
         {
-          "text": "Failure to Clean Commercial Sidewalk ",
-          id: "/mayor/24?topic=illegal-dumping"
-        },
-        {
           "text": "Street Occupancy Pemit",
           id: "/transportation/streetoccupancy.asp"
         },
@@ -1382,24 +1374,12 @@ text: "Transporation, Streets & Sidewalks",
           id: "/streetoccupancy"
         },
         {
-          "text": "Unshoveled Sidewalk",
+          "text": "Request Snow Plowing / Salting ",
+          id: "https://311.boston.gov/reports/new?service_id=50af779a006aed4a5da85b14"
+        },
+        {
+          "text": "Report Business Plowing Snow onto Sidewalk",
           id: "/mayor/24?topic=sidewalk-snow"
-        },
-        {
-          "text": "Street Plowing",
-          id: "/mayor/24?topic=street-plow"
-        },
-        {
-          "text": "Salt & Sand",
-          id: "/mayor/24?topic=street-plow"
-        },
-        {
-          "text": "Business Plowing Snow onto Sidewalk",
-          id: "/mayor/24?topic=sidewalk-snow"
-        },
-        {
-          "text": "Failure to Clean Commercial Sidewalk",
-          id: "/mayor/24?topic=illegal-dumping"
         },
         {
           "text": "Pay Motor Vehicle Excise Tax",

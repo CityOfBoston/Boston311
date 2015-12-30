@@ -2009,13 +2009,13 @@
 												<div>
 													<ul>
 														<li>
-															<a href="/mayor/24?topic=sidewalk-snow " class="mainColLink ">Unshoveled Sidewalk</a>
+															<a href="https://311.boston.gov/reports/new?service_id=50af779a006aed4a5da85b14" class="mainColLink ">Unshoveled Sidewalk</a>
 														</li>
 														<li>
 															<a href="/mayor/24?topic=street-plow " class="mainColLink ">Street Plowing</a>
 														</li>
 														<li>
-															<a href="/mayor/24?topic=street-plow " class="mainColLink ">Salt & Sand</a>
+															<a href="https://311.boston.gov/reports/new?service_id=50af779a006aed4a5da85b14" class="mainColLink ">Salt & Sand</a>
 														</li>
 														<li>
 															<a href="/mayor/24?topic=sidewalk-snow " class="mainColLink ">Business Plowing Snow onto Sidewalk</a>

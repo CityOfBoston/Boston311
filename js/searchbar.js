@@ -1317,11 +1317,7 @@ text: "Transporation, Streets & Sidewalks",
           id: "/streetoccupancy"
         },
         {
-          "text": "Request Snow Plowing for Street",
-          id: "https://311.boston.gov/reports/new?service_id=50af779a006aed4a5da85b14"
-        },
-        {
-          "text": "Request Salting/Sanding for Street",
+          "text": "Request Snow Plowing / Salting ",
           id: "https://311.boston.gov/reports/new?service_id=50af779a006aed4a5da85b14"
         },
         {
