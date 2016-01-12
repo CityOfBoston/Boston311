@@ -141,7 +141,7 @@
 			</div>
 			<div class="pure-g" id="content-4">
 				<div class="pure-u-1 pure-u-md-1 pure-u-lg-1-2">
-					<a href="https://mayors24.cityofboston.gov/reports/new?service_id=4f389210e75084437f0001c0" target="_blank">
+					<a href="http://mayors24.boston.gov/Ef3/SSP_PWDx02_MissedTrashRecyclingYardWasteBulkItem.xml" target="_blank">
 		                                <h4>Report a missed curbside pickup ></h4></a>
 					<a href="/mayor/24?topic=pothole" target="_blank">
 		                                <h4>Get a pothole fixed ></h4></a>
