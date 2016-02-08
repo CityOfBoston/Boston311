@@ -1322,7 +1322,7 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Report Business Plowing Snow onto Sidewalk",
-          id: "/mayor/24?topic=sidewalk-snow"
+          id: "https://311.boston.gov/reports/new?service_id=4f38920fe75084437f00018d"
         },
         {
           "text": "Pay Motor Vehicle Excise Tax",
