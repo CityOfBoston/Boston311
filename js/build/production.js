@@ -249,7 +249,7 @@ jQuery(document).ready(function () {
         },
         {
           "text": "Report Failure to Clean Commercial Sidewalk ",
-          id: "/mayor/24?topic=sidewalk-snow"
+          id: "https://311.boston.gov/reports/new?service_id=4f38920fe75084437f00018d"
         },
         {
           "text": "Consumer Complaint Form",
@@ -1303,7 +1303,7 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Traffic Signal Problem ",
-          id: "/mayor/24?topic=traffic-signal"
+          id: "https://311.boston.gov/reports/new?service_id=549d8f0b0485971e64c7b37b"
         },
         {
           "text": "Walk Light Problem ",
