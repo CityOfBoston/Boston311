@@ -1586,10 +1586,6 @@ text: "Transporation, Streets & Sidewalks",
           id: "/mayor/24?topic=generic"
         },
         {
-          "text": "Walk Light Problem ",
-          id: "https://311.boston.gov/reports/new?service_id=549d8f0b0485971e64c7b37b"
-        },
-        {
           "text": "Transportation Department \u00bb",
           id: "/transportation"
         }
