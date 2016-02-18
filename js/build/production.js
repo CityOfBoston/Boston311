@@ -1307,7 +1307,7 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Walk Light Problem ",
-          id: "/mayor/24?topic=traffic-signal"
+          id: "https://311.boston.gov/reports/new?service_id=549d8f0b0485971e64c7b37b"
         },
         {
           "text": "Street Light Out ",
@@ -1587,7 +1587,7 @@ text: "Transporation, Streets & Sidewalks",
         },
         {
           "text": "Walk Light Problem ",
-          id: "/mayor/24?topic=traffic-signal"
+          id: "https://311.boston.gov/reports/new?service_id=549d8f0b0485971e64c7b37b"
         },
         {
           "text": "Transportation Department \u00bb",
