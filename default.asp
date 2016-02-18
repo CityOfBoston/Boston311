@@ -5,7 +5,6 @@
 <%
 
 	Call GenerateTridionDynamicLinking ( "tcm:3-20114-64" , "default" )
-	Response.CharSet = "utf-8"
 	Response.CacheControl="max-age=9, Public"
   	Response.CharSet = "utf-8"
 %>
